@@ -7,7 +7,7 @@
     padding: .4em 1.3em;
 }
 
-.color-light {
+.color-dark {
     background: #2885c4;
 }
 
@@ -37,4 +37,13 @@
     padding: .5em;
     font-weight: bold;
     cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .container {
+        grid-template-columns: auto;
+    }    
+    .col {
+        border-bottom:1px solid #57b3f1;
+    }
 }
